@@ -25,8 +25,9 @@ Perform Exploratory Data Analysis of the dataset to understand each variable, an
 The Dataset was sourced from kagle but was downloaded and opened locally and stored in a CSV file and loaded into Python using the pandas library.The Dataset was cleaned by checking for null values and duplicates.The Dataset types for each column were checked. The minutes ,charges and number of calls were all added in to make the total minutes, total charges and total calls for better analysis.<br>
 the data was found here [Dataset](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset/download?datasetVersionNumber=1)
 ## Exploratory Data Analysis
-The Data was analysed based on relationships fore seen and with a number of columns being binned to see rate of churn with each oof the specific groups.
+The Data was analysed based on relationships fore seen and with a number of columns being binned to see rate of churn with each of the specific groups.<br>
 ![total charges_countplot](https://user-images.githubusercontent.com/117269915/218333029-9e34fe9d-a5b1-4d16-8448-e96db44e13fa.png)
+
 
 With churn being a binary there were alot of catplots used to compare continuous variables and crosstabs to compare Churn with other categorical variables.<br>
 
